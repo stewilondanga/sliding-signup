@@ -250,7 +250,7 @@ fieldset .select-field__menu:focus {
   height: 0;
 }
 
-/*.see {
+.see {
   opacity: 1;
   height: auto;
   animation: ani;
@@ -258,7 +258,7 @@ fieldset .select-field__menu:focus {
   animation-fill-mode: forwards;
 }
 
-.turtle-says {
+/*.turtle-says {
   display: flex;
   justify-content: center;
   margin: 0 auto;
