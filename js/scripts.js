@@ -17,9 +17,9 @@ var app = new Vue({
   }
 })
 
-/*const inputs = document.querySelectorAll('.signup__in input');
+const inputs = document.querySelectorAll('.signup__in input');
 
-const patterns = {
+/*const patterns = {
   first_name: /^[a-z\d]{3,12}$/i,
   last_name: /^[a-z\d]{5,12}$/i,
   password: /^[\w@-]{8,20}$/,
