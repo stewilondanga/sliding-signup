@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+body {
+  background: #dcdcdc;
+  font-family: 'Montserrat';
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -20,11 +26,6 @@
 
 .my_social a img {
   height: 1.5em;
-}
-
-body {
-  background: #dcdcdc;
-  font-family: 'Montserrat';
 }
 
 .form {
