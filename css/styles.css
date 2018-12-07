@@ -165,14 +165,15 @@ input[type="text"] {
   color: green;
 }
 
-/*fieldset {
+fieldset {
   border: none;
   width: 500px;
   margin: 3rem auto 2rem auto;
   display: flex;
   position: relative;
 }
-fieldset legend {
+
+/*fieldset legend {
   font-size: 32px;
   border-top: 2px solid;
 }
