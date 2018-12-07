@@ -173,11 +173,12 @@ fieldset {
   position: relative;
 }
 
-/*fieldset legend {
+fieldset legend {
   font-size: 32px;
   border-top: 2px solid;
 }
-fieldset legend::after {
+
+/*fieldset legend::after {
   content: '';
   position: absolute;
   display: block;
