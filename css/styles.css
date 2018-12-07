@@ -304,12 +304,12 @@ fieldset .select-field__menu:focus {
   height: 30px;
 }
 
-/*.signup__check label {
+.signup__check label {
   padding: 10px;
   text-transform: uppercase;
 }
 
-.signup__button {
+/*.signup__button {
   width: 400px;
   margin: 2rem auto 10px auto;
   display: flex;
