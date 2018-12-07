@@ -26,14 +26,15 @@ body {
   padding-bottom: 3rem;
 }
 
-/*.form .heading {
+.form .heading {
   text-align: center;
   position: relative;
   animation: head-form;
   animation-duration: .5s;
   animation-fill-mode: forwards;
 }
-.form .heading h1 {
+
+/*.form .heading h1 {
   display: inline-block;
   border-bottom: 3px solid;
 }
