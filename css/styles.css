@@ -34,12 +34,12 @@ body {
   animation-fill-mode: forwards;
 }
 
-/*.form .heading h1 {
+.form .heading h1 {
   display: inline-block;
   border-bottom: 3px solid;
 }
 
-.btn-more {
+/*.btn-more {
   background: lightgrey;
   color: #000;
   text-transform: uppercase;
