@@ -20,12 +20,13 @@ body {
   height: 1.5em;
 }
 
-/*.form {
+.form {
   width: 100%;
   margin: 0 auto;
   padding-bottom: 3rem;
 }
-.form .heading {
+
+/*.form .heading {
   text-align: center;
   position: relative;
   animation: head-form;
