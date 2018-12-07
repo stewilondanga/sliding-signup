@@ -429,20 +429,23 @@ fieldset .select-field__menu:focus {
   }
 }
 
-/*@keyframes head-form {
+@keyframes head-form {
   0% {
     right: -40px;
     opacity: 0;
   }
+
   90% {
     right: 10px;
   }
+
   100% {
     right: 0;
     opacity: 1;
   }
 }
-@keyframes form {
+
+/*@keyframes form {
   0% {
     left: -40px;
     opacity: 0;
