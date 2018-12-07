@@ -258,12 +258,13 @@ fieldset .select-field__menu:focus {
   animation-fill-mode: forwards;
 }
 
-/*.turtle-says {
+.turtle-says {
   display: flex;
   justify-content: center;
   margin: 0 auto;
 }
-.turtle-says p {
+
+/*.turtle-says p {
   margin: 0;
 }
 .turtle-says span {
