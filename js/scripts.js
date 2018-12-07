@@ -40,8 +40,8 @@ inputs.forEach((input) => {
   });
 });
 
-/*const next = document.getElementById('next');
-const favorite = document.querySelector('.favorite');
+const next = document.getElementById('next');
+/*const favorite = document.querySelector('.favorite');
 
 next.addEventListener('click', nextSection);
 
