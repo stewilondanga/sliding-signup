@@ -264,10 +264,11 @@ fieldset .select-field__menu:focus {
   margin: 0 auto;
 }
 
-/*.turtle-says p {
+.turtle-says p {
   margin: 0;
 }
-.turtle-says span {
+
+/*.turtle-says span {
   margin-top: 10px;
   margin-right: 10px;
   color: red;
