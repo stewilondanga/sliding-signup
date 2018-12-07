@@ -161,11 +161,11 @@ body {
   animation-fill-mode: forwards;
 }
 
-/*input[type="text"] {
+input[type="text"] {
   color: green;
 }
 
-fieldset {
+/*fieldset {
   border: none;
   width: 500px;
   margin: 3rem auto 2rem auto;
