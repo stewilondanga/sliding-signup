@@ -111,13 +111,14 @@ body {
   padding-left: 10px;
 }
 
-/*.signup__in input + .error p {
+.signup__in input+.error p {
   margin: 4px 0 0 0;
   font-size: 14px;
   color: red;
   opacity: 0;
 }
-.signup__in input.invalid + .error p {
+
+/*.signup__in input.invalid + .error p {
   opacity: 1;
 }
 .signup__in .input-field:hover,
