@@ -67,7 +67,7 @@ body {
   transform: translateX(90deg);
 }
 
-/*.signup__in {
+.signup__in {
   margin: 0 auto;
   width: 500px;
   background: pink;
@@ -78,7 +78,8 @@ body {
   align-items: center;
   opacity: 0;
 }
-.signup__in .label {
+
+/*.signup__in .label {
   font-size: 24px;
 }
 .signup__in .error {
