@@ -285,11 +285,11 @@ fieldset .select-field__menu:focus {
   display: flex;
 }
 
-/*.signup__radio label:hover {
+.signup__radio label:hover {
   border-bottom: 1px solid;
 }
 
-.signup__check {
+/*.signup__check {
   display: flex;
   justify-content: center;
   align-items: center;
