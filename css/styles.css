@@ -79,10 +79,11 @@ body {
   opacity: 0;
 }
 
-/*.signup__in .label {
+.signup__in .label {
   font-size: 24px;
 }
-.signup__in .error {
+
+/*.signup__in .error {
   grid-column: 1 / -1;
   grid-row: 2;
 }
