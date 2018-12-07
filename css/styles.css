@@ -289,7 +289,7 @@ fieldset .select-field__menu:focus {
   border-bottom: 1px solid;
 }
 
-/*.signup__check {
+.signup__check {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -298,7 +298,8 @@ fieldset .select-field__menu:focus {
   margin: 10px auto 0 auto;
   position: relative;
 }
-.signup__check input {
+
+/*.signup__check input {
   width: 22px;
   height: 30px;
 }
