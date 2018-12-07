@@ -219,11 +219,12 @@ fieldset .color-option {
   align-items: flex-end;
 }
 
-/*fieldset .color-option p {
+fieldset .color-option p {
   margin: 0 0 0 12px;
   font-weight: bold;
 }
-fieldset .color-option span {
+
+/*fieldset .color-option span {
   margin-left: 10px;
 }
 fieldset .select-field select option {
