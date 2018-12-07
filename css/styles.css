@@ -101,10 +101,11 @@ body {
   outline: 0;
 }
 
-/*.signup__in input.valid {
+.signup__in input.valid {
   border: 3px solid #36cc36;
 }
-.signup__in input.invalid {
+
+/*.signup__in input.invalid {
   border: 3px solid orange;
   transform: scale(1.1);
   padding-left: 10px;
