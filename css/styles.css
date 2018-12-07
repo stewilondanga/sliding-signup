@@ -209,10 +209,11 @@ fieldset .signup__field:last-child::after {
   background: black;
 }
 
-/*fieldset .left-field {
+fieldset .left-field {
   width: 100%;
 }
-fieldset .color-option {
+
+/*fieldset .color-option {
   width: 100%;
   display: flex;
   align-items: flex-end;
