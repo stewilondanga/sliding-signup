@@ -281,10 +281,11 @@ fieldset .select-field__menu:focus {
   align-items: flex-start;
 }
 
-/*.signup__radio .radio-btns {
+.signup__radio .radio-btns {
   display: flex;
 }
-.signup__radio label:hover {
+
+/*.signup__radio label:hover {
   border-bottom: 1px solid;
 }
 
