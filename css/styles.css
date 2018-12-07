@@ -445,21 +445,23 @@ fieldset .select-field__menu:focus {
   }
 }
 
-/*@keyframes form {
+@keyframes form {
   0% {
     left: -40px;
     opacity: 0;
   }
+
   90% {
     left: -10px;
   }
+
   100% {
     left: 0;
     opacity: 1;
   }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
