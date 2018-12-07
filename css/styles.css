@@ -245,12 +245,12 @@ fieldset .select-field__menu:focus {
   border: none;
 }
 
-/*.favorite {
+.favorite {
   opacity: 0;
   height: 0;
 }
 
-.see {
+/*.see {
   opacity: 1;
   height: auto;
   animation: ani;
