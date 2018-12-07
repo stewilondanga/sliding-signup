@@ -197,7 +197,8 @@ fieldset .signup__field {
 fieldset .signup__field .label {
   margin-bottom: 10px;
 }
-/*fieldset .signup__field:last-child::after {
+
+fieldset .signup__field:last-child::after {
   content: '';
   position: absolute;
   display: block;
@@ -207,7 +208,8 @@ fieldset .signup__field .label {
   height: 2px;
   background: black;
 }
-fieldset .left-field {
+
+/*fieldset .left-field {
   width: 100%;
 }
 fieldset .color-option {
