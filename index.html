@@ -21,6 +21,102 @@
         </a>
     </div>
 
+    <div id="app">
+       <form class="form" action="post" method="post">
+          <div class="heading">
+             <h1>Sign Up</h1>
+
+          </div>
+          <div class="signup__field signup__in">
+             <label for="first_name" class="label">First name</label>
+
+             <input type="text" name="first_name" id="first_name" class="input-field" v-model="first"/>
+             <div class="error"><p>first name is taken</p></div>
+          </div>
+
+          <div class="signup__field signup__in">
+             <label for="last_name" class="label">Last name</label>
+             <input type="text" name="last_name" id="last_name" class="input-field" v-model="last" />
+             <div class="error"><p>last name is taken</p></div>
+          </div>
+
+          <div class="signup__field signup__in">
+             <label for="email" class="label">Email address</label>
+             <input type="email" name="email" id="email" class="input-field" required>
+             <div class="error"><p>invalid email</p></div>
+          </div>
+
+          <div class="signup__field signup__in">
+             <label for="password" class="label">Password</label>
+             <input type="password" name="password" id="password" class="input-field" required>
+             <div class="error"><p>weak password</p></div>
+          </div>
+          <div>
+             <div class="btn-more" id="next">next</div>
+          </div>
+          <fieldset class="favorite">
+             <legend>Favorites</legend>
+
+             <div class="signup__field">
+                <div class="left-field">
+                   <div class="label" for="fav_color">What's your favorite color?</div>
+                   <div class="select-field">
+                      <select name="fav_color" id="fav_color" class="select-field__menu" v-model="selected">
+                         <option disabled value=""> Select</option>
+                         <option value="Red">Red</option>
+                         <option value="Orange">Orange</option>
+                         <option value="Yellow">Yellow</option>
+                         <option value="Green">Green</option>
+                         <option value="Blue">Blue</option>
+                         <option value="Purple">Purple</option>
+                      </select>
+                   </div>
+                </div>
+                <div class="color-option">
+                   <p>Selected:</p><span> {{ selected }}</span>
+                </div>
+             </div>
+
+             <div class="signup__field signup__radio">
+                <div class="label">What's your favorite Ninja Turtle?</div>
+                <div class="radio-btns">
+                   <div>
+                      <input type="radio" value="leo" id="nt_leo" name="ninja_turtle" v-model="picked" />
+                      <label for="nt_leo">Leo</label>
+                   </div>
+                   <div>
+                      <input type="radio" value="leo" id="nt_mikey" name="ninja_turtle" v-model="picked" />
+                      <label for="nt_mikey">Mikey</label>
+                   </div>
+                   <div>
+                      <input type="radio" value="donnie" id="nt_donnie" name="ninja_turtle" v-model="picked" />
+                      <label for="nt_donnie">Donnie</label>
+                   </div>
+                   <div>
+                      <input type="radio" value="raph" id="nt_raph" name="ninja_turtle"v-model="picked" />
+                      <label for="nt_raph">Raph</label>
+                   </div>
+                </div>
+             </div>
+
+          </fieldset>
+          <div class="turtle-says">
+             <span>{{ selected }} {{ picked }}</span>
+             <p>... says you are amazing.</p>
+          </div>
+          <div class="signup__field signup__check">
+             <input type="checkbox" id="amazing" name="amazing">
+             <label for="amazing">Yes. I'm the amazing:</label>
+          </div>
+          <div class="amazing-name">
+             <p>{{ first }} {{ last }}</p>
+          </div>
+          <div class="signup__button">
+             <button class="button" type="submit">Sign up</button>
+          </div>
+       </form>
+    </div>
+
   <section id="contact">
     <div class="overlay">
       <div class="containers">
