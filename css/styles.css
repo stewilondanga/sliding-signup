@@ -83,11 +83,12 @@ body {
   font-size: 24px;
 }
 
-/*.signup__in .error {
+.signup__in .error {
   grid-column: 1 / -1;
   grid-row: 2;
 }
-.signup__in .error p {
+
+/*.signup__in .error p {
   margin: 0;
 }
 .signup__in input {
