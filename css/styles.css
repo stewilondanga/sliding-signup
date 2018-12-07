@@ -122,14 +122,14 @@ body {
   opacity: 1;
 }
 
-/*.signup__in .input-field:hover,
+.signup__in .input-field:hover,
 .signup__in .input-field:focus,
 .signup__in .input-field:active {
   transform: scale(1.1);
   padding-left: 10px;
 }
 
-.signup__in:nth-child(2) {
+/*.signup__in:nth-child(2) {
   position: relative;
   animation: form;
   animation-delay: .2s;
