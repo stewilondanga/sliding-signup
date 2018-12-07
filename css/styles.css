@@ -118,10 +118,11 @@ body {
   opacity: 0;
 }
 
-/*.signup__in input.invalid + .error p {
+.signup__in input.invalid+.error p {
   opacity: 1;
 }
-.signup__in .input-field:hover,
+
+/*.signup__in .input-field:hover,
 .signup__in .input-field:focus,
 .signup__in .input-field:active {
   transform: scale(1.1);
