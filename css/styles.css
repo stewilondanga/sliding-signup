@@ -178,7 +178,7 @@ fieldset legend {
   border-top: 2px solid;
 }
 
-/*fieldset legend::after {
+fieldset legend::after {
   content: '';
   position: absolute;
   display: block;
@@ -186,7 +186,8 @@ fieldset legend {
   height: 2px;
   background: black;
 }
-fieldset .signup__field {
+
+/*fieldset .signup__field {
   display: flex;
   background: #00000030;
   margin: 10px auto;
