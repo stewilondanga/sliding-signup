@@ -334,10 +334,11 @@ fieldset .select-field__menu:focus {
   outline-offset: 1px;
 }
 
-/*.amazing-name {
+.amazing-name {
   text-align: center;
 }
-.amazing-name p {
+
+/*.amazing-name p {
   color: green;
   text-transform: uppercase;
   text-decoration: underline;
