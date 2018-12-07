@@ -344,7 +344,7 @@ fieldset .select-field__menu:focus {
   text-decoration: underline;
 }
 
-/*@media (max-width: 567px) {
+@media (max-width: 567px) {
   .form {
     width: 90%;
     margin: 0 auto;
@@ -353,30 +353,37 @@ fieldset .select-field__menu:focus {
   .signup__in {
     width: 300px;
   }
+
   .signup__in .label {
     grid-column: 1;
     grid-row: 1;
     font-size: 18px;
   }
+
   .signup__in .error {
     grid-column: 2;
     grid-row: 1;
   }
+
   .signup__in .error p {
     padding: 10px;
     margin: 0;
   }
+
   .signup__in .input-field {
     grid-column: 1 / -1;
     grid-row: 2;
   }
+
   .signup__in input.valid {
     grid-column: 1 / -1;
   }
+
   .signup__in input.invalid {
     grid-column: 1 / -1;
   }
-  .signup__in input + .error p {
+
+  .signup__in input+.error p {
     margin: 0;
     padding: 10px 0;
   }
@@ -407,7 +414,8 @@ fieldset .select-field__menu:focus {
     align-items: center;
   }
 }
-@keyframes ani {
+
+/*@keyframes ani {
   0% {
     bottom: -200px;
   }
