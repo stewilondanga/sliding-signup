@@ -129,7 +129,7 @@ body {
   padding-left: 10px;
 }
 
-/*.signup__in:nth-child(2) {
+.signup__in:nth-child(2) {
   position: relative;
   animation: form;
   animation-delay: .2s;
@@ -137,7 +137,7 @@ body {
   animation-fill-mode: forwards;
 }
 
-.signup__in:nth-child(3) {
+/*.signup__in:nth-child(3) {
   position: relative;
   animation: form;
   animation-delay: .4s;
