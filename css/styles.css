@@ -194,10 +194,10 @@ fieldset .signup__field {
   padding: 10px;
 }
 
-/*fieldset .signup__field .label {
+fieldset .signup__field .label {
   margin-bottom: 10px;
 }
-fieldset .signup__field:last-child::after {
+/*fieldset .signup__field:last-child::after {
   content: '';
   position: absolute;
   display: block;
