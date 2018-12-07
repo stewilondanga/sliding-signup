@@ -232,13 +232,14 @@ fieldset .select-field select option {
   color: #2d2d2d;
 }
 
-/*fieldset .select-field__menu {
+fieldset .select-field__menu {
   border: none;
   height: 42px;
   width: 94%;
   background: lightgrey;
 }
-fieldset .select-field__menu:hover,
+
+/*fieldset .select-field__menu:hover,
 fieldset .select-field__menu:focus {
   outline: 0;
   border: none;
