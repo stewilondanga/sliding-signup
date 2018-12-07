@@ -19,14 +19,14 @@ var app = new Vue({
 
 const inputs = document.querySelectorAll('.signup__in input');
 
-/*const patterns = {
+const patterns = {
   first_name: /^[a-z\d]{3,12}$/i,
   last_name: /^[a-z\d]{5,12}$/i,
   password: /^[\w@-]{8,20}$/,
   email: /^([a-z\d\.-_]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/
 }
 
-function validate(field, regex) {
+/*function validate(field, regex) {
   if (regex.test(field.value) || field.value == '') {
     field.className = "valid";
   } else {
