@@ -7,7 +7,7 @@ var navigate = (function() {
   });
 })();
 
-/*var app = new Vue({
+var app = new Vue({
   el: '#app',
   data: {
     first: '',
@@ -17,7 +17,7 @@ var navigate = (function() {
   }
 })
 
-const inputs = document.querySelectorAll('.signup__in input');
+/*const inputs = document.querySelectorAll('.signup__in input');
 
 const patterns = {
   first_name: /^[a-z\d]{3,12}$/i,
