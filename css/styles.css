@@ -239,13 +239,13 @@ fieldset .select-field__menu {
   background: lightgrey;
 }
 
-/*fieldset .select-field__menu:hover,
+fieldset .select-field__menu:hover,
 fieldset .select-field__menu:focus {
   outline: 0;
   border: none;
 }
 
-.favorite {
+/*.favorite {
   opacity: 0;
   height: 0;
 }
