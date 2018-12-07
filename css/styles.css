@@ -145,7 +145,7 @@ body {
   animation-fill-mode: forwards;
 }
 
-/*.signup__in:nth-child(4) {
+.signup__in:nth-child(4) {
   position: relative;
   animation: form;
   animation-delay: .6s;
@@ -153,7 +153,7 @@ body {
   animation-fill-mode: forwards;
 }
 
-.signup__in:nth-child(5) {
+/*.signup__in:nth-child(5) {
   position: relative;
   animation: form;
   animation-delay: .8s;
