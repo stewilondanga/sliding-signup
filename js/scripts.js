@@ -41,9 +41,9 @@ inputs.forEach((input) => {
 });
 
 const next = document.getElementById('next');
-/*const favorite = document.querySelector('.favorite');
+const favorite = document.querySelector('.favorite');
 
-next.addEventListener('click', nextSection);
+/*next.addEventListener('click', nextSection);
 
 function nextSection() {
   favorite.classList.add('see');
