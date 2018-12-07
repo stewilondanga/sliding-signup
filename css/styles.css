@@ -309,13 +309,14 @@ fieldset .select-field__menu:focus {
   text-transform: uppercase;
 }
 
-/*.signup__button {
+.signup__button {
   width: 400px;
   margin: 2rem auto 10px auto;
   display: flex;
   justify-content: center;
 }
-.signup__button .button {
+
+/*.signup__button .button {
   width: 50%;
   height: 42px;
   transition: all ease-in-out 100ms;
