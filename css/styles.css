@@ -268,14 +268,14 @@ fieldset .select-field__menu:focus {
   margin: 0;
 }
 
-/*.turtle-says span {
+.turtle-says span {
   margin-top: 10px;
   margin-right: 10px;
   color: red;
   text-transform: uppercase;
 }
 
-.signup__radio {
+/*.signup__radio {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
