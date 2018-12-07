@@ -299,11 +299,12 @@ fieldset .select-field__menu:focus {
   position: relative;
 }
 
-/*.signup__check input {
+.signup__check input {
   width: 22px;
   height: 30px;
 }
-.signup__check label {
+
+/*.signup__check label {
   padding: 10px;
   text-transform: uppercase;
 }
