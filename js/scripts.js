@@ -45,7 +45,7 @@ const favorite = document.querySelector('.favorite');
 
 next.addEventListener('click', nextSection);
 
-/*function nextSection() {
+function nextSection() {
   favorite.classList.add('see');
   next.classList.add('hide');
 }
