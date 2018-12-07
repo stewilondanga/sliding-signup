@@ -213,12 +213,13 @@ fieldset .left-field {
   width: 100%;
 }
 
-/*fieldset .color-option {
+fieldset .color-option {
   width: 100%;
   display: flex;
   align-items: flex-end;
 }
-fieldset .color-option p {
+
+/*fieldset .color-option p {
   margin: 0 0 0 12px;
   font-weight: bold;
 }
