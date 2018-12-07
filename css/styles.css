@@ -224,10 +224,11 @@ fieldset .color-option p {
   font-weight: bold;
 }
 
-/*fieldset .color-option span {
+fieldset .color-option span {
   margin-left: 10px;
 }
-fieldset .select-field select option {
+
+/*fieldset .select-field select option {
   color: #2d2d2d;
 }
 fieldset .select-field__menu {
